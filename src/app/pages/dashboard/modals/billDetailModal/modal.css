@@ -1,0 +1,30 @@
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  background: #3d3d3d7a 48%;
+}
+
+.modal-content-billDetail {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 33%;
+  right: 26%;
+
+  border-radius: 2rem;
+  border: none;
+  outline: unset;
+
+  padding: 2.5% 3%;
+
+  background-color: white;
+}
